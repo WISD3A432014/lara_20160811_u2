@@ -73,7 +73,7 @@
                     @else
                         <a href="{{ url('/login') }}">Login</a>
                         <a href="{{ url('/register') }}">Register</a>
-                        <a href="{{route('hello.index')}}">Hello</a>
+
                     @endif
                 </div>
             @endif
@@ -89,6 +89,7 @@
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="{{route('hello.index')}}">Hello</a>
                 </div>
             </div>
         </div>
