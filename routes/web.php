@@ -17,11 +17,14 @@
 //Route::get('hello/{name}',function($name){
     //return 'Hello,'.$name;
 //});
-Route::get('say/{name?}',['as'=>'hello.index',function($name='Everybody'){
-}]);
+//Route::get('say/{name?}',['as'=>'hello.index',function($name='Everybody'){
+//}]);
 //Route::get('favorite/{singer}',function($singer){
     //return'favorite,'.$singer;
 //});
-Route::get('/', function () {
-    return view('welcome');
+//Route::get('/', function () {
+    //return view('welcome');
+//});
+Route::get('dashboard',function(){
+    return 'dashboard';
 });
